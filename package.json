@@ -1,0 +1,38 @@
+{
+  "name": "qdcomponent",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "./dist/qdComponent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/webpack/bin/webpack.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShutingJiang/qdcomponent.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "jst",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.3.4",
+    "webpack": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.11",
+    "vue-loader": "^13.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue-template-compiler": "^2.3.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ShutingJiang/qdcomponent/issues"
+  },
+  "homepage": "https://github.com/ShutingJiang/qdcomponent#readme"
+}
